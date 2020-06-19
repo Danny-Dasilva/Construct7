@@ -1,28 +1,5 @@
 .skill_icon img{
-  position: absolute;
-  top: 3px !important;
-  left: 50% !important;
-  margin-left: -24px;
-  z-index: 1;
-}
-.skill_icon{
-  background: url("icons/shadow.png") no-repeat 6px 3px;
   position: relative;
-  width: 60px;
-  height: 60px;
-  display: inline-block;
-  background-size: 60px 60px;
-  vertical-align: middle;
+
 }
-.skill_icon::after{
-  content: "";
-  background: url("icons/foil.png") no-repeat;
-  background-size: 72px 72px;
-  width: 72px;
-  height: 72px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-}
+
